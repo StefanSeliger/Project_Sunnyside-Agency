@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 1440px;
+  font-family: "Barlow", sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.colorGrey {
+  color: #818498;
+}
+
+h1, h2, h3 {
+  font-family: "Fraunces", serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-image: url(../img/desktop/image-header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 40px;
+}
+.navBar nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.navBar nav a {
+  color: white;
+  margin-left: 30px;
+}
+.navBar nav .contactButton {
+  background: white;
+  color: black;
+  padding: 8px 15px;
+  border-radius: 10px;
+}
+
+.hero {
+  text-align: center;
+}
+.hero h1 {
+  color: white;
+  font-size: 4rem;
+  margin: 15vh 0;
+}
+
+.serviceTiles {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.serviceTiles img {
+  width: 100%;
+}
+.serviceTiles #standOut {
+  grid-column: 2/3;
+}
+.serviceTiles #pinkGlas {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.serviceTiles article {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+.serviceTiles article div {
+  grid-column: 2/3;
+}
+.serviceTiles article h2 {
+  font-size: 2.5rem;
+}
+.serviceTiles article p {
+  margin: 4vh 0;
+}
+.serviceTiles article a {
+  color: black;
+  border-bottom: 2px solid yellow;
+}
+
+.serviceTiles .cherry {
+  background-image: url(../img/desktop/image-graphic-design.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  align-items: end;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.serviceTiles .cherry h3 {
+  font-size: 2rem;
+}
+.serviceTiles .orange {
+  background-image: url(../img/desktop/image-photography.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  align-items: end;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.serviceTiles .orange h3 {
+  font-size: 2rem;
+}
+
+.clientTests {
+  padding: 100px;
+  text-align: center;
+}
+.clientTests h3 {
+  font-size: 2rem;
+}
+.clientTests article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 8vh 0;
+}
+
+.clientTests article div {
+  width: 25vw;
+}
+.clientTests article div img {
+  border-radius: 50%;
+  width: 110px;
+}
+.clientTests article div .clientText {
+  margin: 5vh 0;
+}
+.clientTests article div .bold {
+  margin-bottom: 2vh;
+}
+
+.imgRow {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.imgRow img {
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  height: 60vh;
+  background-color: #458c7e;
+  padding: 20vh 0;
+}
+footer nav {
+  margin: 3vh 0 8vh 0;
+  font-size: 1.5rem;
+}
+footer nav a {
+  margin: 0 3vw;
+}
+footer a {
+  color: #25564b;
+}
+footer article a {
+  margin: 0 1vw;
+}
+
+/*# sourceMappingURL=style.css.map */
